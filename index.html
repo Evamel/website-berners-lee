@@ -1,17 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <title>Tim Berners-Lee</title>
+        <meta charset="utf-8"/>
         <script src="https://kit.fontawesome.com/a7577a9f0e.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="Style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap" rel="stylesheet">
+
     </head>
 
     <body>
-<img src="images/tim_berners_lee.jpg">
+<div id="intro">        
 
-<h1>Tim Berners-Lee</h1>
-<h2>Inventor of HTML</h2>
-        <p>Tim Berners-Lee is the inventor of the Web. In 1989, Tim was working in a computing services section of CERN when he came up with the concept; 
-            at the time he had no idea that it would be implemented on such an enormous scale.</p>
-        <a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank">See for yourself</a>
+    <img class="img-lee" src="images/tim_berners_lee.jpg" alt="Tim Berners-Lee">
+
+    <h1>Tim Berners-Lee</h1>
+    <h2>Inventor of HTML</h2>
+        <p>Tim Berners-Lee is the <strong>inventor</strong> of the Web. In 1989, Tim was working in a computing services section of CERN when he came up with the concept; 
+            at the time he had no idea that it would be implemented on such an <strong>enormous scale.</strong></p>
+            <button name="button">
+                <a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank"><span class="wiki">See for yourself</span></a>
+            </button>
+    </div>
 
     <div id="logo">
         <ul>
@@ -23,29 +35,45 @@
                 <br>Twitter</a></li>
         </ul>
     </div>
-    
-        <h2>His favorite movies</h2>
-        
-        
-        <p style= "float:left"><img src="images/space_odyssey.jpg" display: inline>
+
+
+    <div id="movies">
+        <h2><span>His</span> favorite movies</h2>
+     
+    <div class="S-O">   
+    <div id="img-2001">
+        <img src="images/space_odyssey.jpg" alt="2001 Space Odyssey">
+    </div>
+    <div id="txt-2001">
         <h3>2001 - Space Odyssey</h3>
-        Humanity finds misterious, obviously artificial, object buried beneath the Lunar surface and, with the intelligent computer H.A.L. 9000, sets off on a quest.
+        <p>Humanity finds misterious, obviously artificial, object buried beneath the Lunar surface and, with the intelligent computer H.A.L. 9000, sets off on a quest.
         </p>
-        <div style="clear:both"></div>
-        
-            
-        <p style="float: left"><img src="images/mister_hulot.jpg" display: inline>
+    </div>
+    </div>
+
+    <div class="hulot">
+    <div id="img-hulot">
+        <img src="images/mister_hulot.jpg" alt="Monsieur Hulot" >
+    </div>
+    <div id="txt-hulot">
         <h3>Monsieur Hulot</h3>
-        Monsieur Hulot comes to beachside hotel for a vacacion, where he accidentally (but good-naturedly) causes havoc.
+        <p>Monsieur Hulot comes to beachside hotel for a vacacion, where he accidentally (but good-naturedly) causes havoc.
         </p>
-        <div style="clear:both"></div>
-       
-        <p style="float: left"><img src="images/alien.jpg" display: inline>
+    </div>
+    </div>
+
+    <div class="alien">
+    <div id="img-alien">
+        <img src="images/alien.jpg" alt="Alien">
+    </div>
+    <div id="txt-alien">
         <h3>Alien</h3>
-        The commercial vessel Nostromo receives a distress call from an unexplored planet. After searching survivors, the crew heads home only to realize that a deadly bioform has joined them.
+        <p>The commercial vessel Nostromo receives a distress call from an unexplored planet. After searching survivors, the crew heads home only to realize that a deadly bioform has joined them.
         </p>
-        <div style="clear:both"></div>
-    
+    </div>
+    </div>
+    </div>
+
     </body>
 
 </html>
