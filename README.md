@@ -12,3 +12,6 @@ You'll find images and texts about T. Berners-Lee, the computer scientist.
 # When? Why?
 This website was created during **the field** for the BeCode junior web developer formation.
 It was an exercise in which we had to reproduce a little web site.
+
+# Where?
+ You can find it here: https://evamel.github.io/website-berners-lee/
